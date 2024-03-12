@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>主页 - 哆啦A梦 · 童年的伙伴</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+    <div class="nav-box">
+        <div class="nav">
+            <div class="content">
+                <img src="img/logo.png" alt="哆啦A梦">
+                <ul class="links">
+                    <a href="video.html">
+                        <li>观看花絮</li>
+                    </a>
+                    <a href="index.html">
+                        <li>回到主页</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="slider">
+            <img class="img-item" id="slider-img" src="img/dola1.png" alt="dola1">
+            <div class="node" id="slider-node">
+                <span class="choosed"></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <div class="fast-link">
+            <div class="js-title">
+                <p class="head">介绍指引</p>
+                <p class="desc">带给你不一样的体验</p>
+            </div>
+            <div class="links">
+                <div class="item" onclick="window.open('video.html','_self')">
+                    <img src="img/icon/1.png" alt="video">
+                    <p>观看花絮</p>
+                </div>
+                <div class="item" onclick="window.open('music.html','_self')">
+                    <img src="img/icon/2.png" alt="video">
+                    <p>主题曲试听</p>
+                </div>
+                <div class="item" onclick="window.open('details.html','_self')">
+                    <img src="img/icon/3.png" alt="video">
+                    <p>更多人物介绍</p>
+                </div>
+                <div class="item" onclick="window.open('author.html','_self')">
+                    <img src="img/icon/4.png" alt="video">
+                    <p>关于原动画作者</p>
+                </div>
+            </div>
+        </div>
+        <div class="single-intro">
+            <div class="js-title">
+                <p class="head">哆啦A梦介绍</p>
+                <p class="desc">动漫人物主要信息介绍</p>
+            </div>
+            <div class="intro">
+                <div class="left">
+                    <img src="img/do.png" alt="dola">
+                </div>
+                <div class="right">
+                    <h3><span>哆啦A梦</span>（ドラえもん）</h3>
+                    <p>名字的意思是铜锣卫门（日文：ドラえもん）。心肠好，乐于助人，做事很拼命，但却心肠软。每次大雄遇到困难，他总会帮大雄。但有时会用愚蠢的方法来帮助大雄。当它吃不到铜锣烧或人们叫他狸猫时，脾气会非常暴躁。
+                    </p>
+                    <p>他原来是和妹妹一样，黄色的，而且有耳朵，一天，小世修为了感谢哆啦A梦照顾他，做了一个哆啦A梦的泥娃娃，可就是耳朵老做不好，就用未来世界的工具老鼠机器人修改泥娃娃，可是小世下错了指令，那个老鼠机器人就把哆啦A梦的耳朵咬坏了，他要喝一种药振作精神，可他拿错了药，是让人大哭不止的药，结果他哭了三天三夜，嗓子也哭沙哑了，身上黄色的喷漆也都被泪水冲刷掉了，只剩下蓝色的底漆。所以哆啦A梦就成了现今这个样子。因此，他也惧怕老鼠。怕冷，最讨厌冬天。被说成是狸猫会马上生气。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="content">Web制作人：请在源码中修改此内容 &nbsp;&copy; 2023</div>
+    </div>
+</body>
+<script src="js/jquery-3.6.3.min.js"></script>
+<script src="js/main.js"></script>
+<script>slider();</script>
+
+</html>
